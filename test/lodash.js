@@ -112,16 +112,14 @@ describe('#indexOf(array, el)', function() {
     assert.equal(_.indexOf(["one", "two", "three"], "five"), -1);
     assert.equal(_.indexOf([101, 202, 303], 909), -1);
   });
-
 });
 
 // /*************** BONUS ***************/
-xdescribe('#shuffle(array)', function() {
+describe('#shuffle(array)', function() {
 
   it('should return a new array with elements shuffled', function() {
     assert.equal(_.shuffle([1, 2, 3]).length, 3);
   });
-
 });
 
 // /**************************************
@@ -266,7 +264,7 @@ describe('#reject(collection, callback)', function() {
 });
 
 // /*************** BONUS ***************/
-xdescribe('#sample(collection, n)', function() {
+describe('#sample(collection, n)', function() {
 
   it('should return n random characters of a string', function() {
     var randomizedCollection = _.sample('pizza', 2);
